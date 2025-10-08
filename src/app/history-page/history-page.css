@@ -1,0 +1,11 @@
+button,
+a {
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+}
+h3{
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}

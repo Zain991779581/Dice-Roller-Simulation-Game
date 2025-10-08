@@ -1,0 +1,13 @@
+<h2>Guess a number:</h2>
+
+<div class="game-input">
+  <p>Your answer: <input type="number" [(ngModel)]="userAnswer"></p>
+  <p>
+    <button (click)="checkAnswer()">OK</button>
+  </p>
+  <p>{{ clue }}</p>
+</div>
+
+<p>
+  <a routerLink="/history">See History</a>
+</p>

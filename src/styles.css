@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+.history-table {
+  margin: auto;
+  text-align: center;
+}
+
+.history-table th, .history-table td {
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+
+.history-table th {
+  background-color: #e4e4e4;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+}
